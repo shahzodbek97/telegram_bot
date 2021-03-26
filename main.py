@@ -10,7 +10,7 @@ def mano(update,context):
     ismmano=ism_mano.ism_mano(ism)
     update.message.reply_text(ismmano)
 def gl():
-    updater=Updater("1601723455:AAGTRQb-yMaVsuBJZz2qP7d04PhdU1L2aFw",use_context=True)
+    updater=Updater("Token",use_context=True)
     dpp=updater.dispatcher
     dpp.add_handler(CommandHandler("start",start))
     dpp.add_handler(CommandHandler("help", help))
